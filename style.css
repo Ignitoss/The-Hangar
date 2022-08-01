@@ -10,11 +10,26 @@ html {
   margin: 0 auto;
 }
 
-.slider-container {
+.carousel-container {
+  max-width: 140rem;
   position: relative;
-  margin: auto;
+  overflow: hidden;
+  /* margin: auto; */
+}
+
+.carousel {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .hero-img {
+  /* object-fit: cover; */
   width: 100%;
+  vertical-align: middle;
+  /* height: 100vh; */
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 40;
 }
