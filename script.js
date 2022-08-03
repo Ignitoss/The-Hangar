@@ -32,13 +32,9 @@ const carousel = function () {
     );
   };
 
-  // let slideTimer;
-  // slideTimer = setInterval(function () {
-  //   curSlide++;
-  // }, 1000);
-
+  let timer;
   const slideTimer = function () {
-    setInterval(nextSlide, 6000);
+    timer = setInterval(nextSlide, 6000);
   };
 
   // Next slide
@@ -51,7 +47,8 @@ const carousel = function () {
 
     goToSlide(curSlide);
     activateDot(curSlide);
-    clearInterval(setInterval);
+    clearInterval(timer);
+    slideTimer();
   };
 
   // Previous slide
@@ -63,7 +60,8 @@ const carousel = function () {
     }
     goToSlide(curSlide);
     activateDot(curSlide);
-    clearInterval(slideTimer);
+    clearInterval(timer);
+    slideTimer();
   };
 
   const init = function () {
@@ -87,8 +85,11 @@ const carousel = function () {
   dotcontainer.addEventListener("click", function (e) {
     if (e.target.classList.contains("dots-dot")) {
       const { slide } = e.target.dataset;
+      curSlide = slide;
       goToSlide(slide);
       activateDot(slide);
+      clearInterval(timer);
+      slideTimer();
     }
   });
 };
