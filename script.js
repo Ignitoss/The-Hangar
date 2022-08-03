@@ -2,7 +2,7 @@ const carousel = function () {
   const slides = document.querySelectorAll(".carousel");
   const btnLeft = document.querySelector(".btn-left");
   const btnRight = document.querySelector(".btn-right");
-  const dotcontainer = document.querySelector(".dots-dot");
+  const dotcontainer = document.querySelector(".dots");
 
   let curSlide = 0;
   const maxSlide = slides.length;
@@ -22,7 +22,7 @@ const carousel = function () {
       .forEach((dot) => dot.classList.remove("dots-dot--active"));
 
     document
-      .querySelector(`dots-dot[data-slide="${slide}"]`)
+      .querySelector(`.dots-dot[data-slide="${slide}"]`)
       .classList.add("dots-dot--active");
   };
 
@@ -30,6 +30,15 @@ const carousel = function () {
     slides.forEach(
       (s, i) => (s.style.transform = `translateX(${100 * (i - slide)}%)`)
     );
+  };
+
+  // let slideTimer;
+  // slideTimer = setInterval(function () {
+  //   curSlide++;
+  // }, 1000);
+
+  const slideTimer = function () {
+    setInterval(nextSlide, 6000);
   };
 
   // Next slide
@@ -42,6 +51,7 @@ const carousel = function () {
 
     goToSlide(curSlide);
     activateDot(curSlide);
+    clearInterval(setInterval);
   };
 
   // Previous slide
@@ -53,12 +63,14 @@ const carousel = function () {
     }
     goToSlide(curSlide);
     activateDot(curSlide);
+    clearInterval(slideTimer);
   };
 
   const init = function () {
     createDots();
     activateDot(0);
     goToSlide(0);
+    slideTimer();
   };
   init();
 
