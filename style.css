@@ -2,6 +2,13 @@ html {
   width: 100%;
   font-size: 62.5%;
   overflow-x: hidden;
+  background-color: #fdfcfb;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
 }
 
 .container {
@@ -30,6 +37,34 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.hero-text-section {
+  position: absolute;
+  top: 45rem;
+  left: 12.8rem;
+  color: #fefdfc;
+  font-size: 3.6rem;
+  font-weight: 800;
+  letter-spacing: 2.4px;
+}
+
+.hero-text {
+  padding-right: 45rem;
+  text-shadow: 0.2rem 0rem black;
+}
+
+.hero-btn {
+  color: #fefdfc;
+  /* background-color: #d62828; */
+  background-color: #aa0000;
+  border: none;
+  width: 28rem;
+  padding: 1.6rem;
+  border-radius: 1.2rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 1.8px;
 }
 
 .material-symbols-outlined {
