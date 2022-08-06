@@ -9,12 +9,62 @@ body {
   font-family: "Inter", sans-serif;
   line-height: 1;
   font-weight: 400;
+  color: #312f2d;
 }
 
 .container {
   max-width: 120rem;
   padding: 0 3.2rem;
   margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  width: 120rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin: 2.4rem auto 1.8rem auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+.nav-item {
+  width: 15rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: #312f2d;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #aa0000;
 }
 
 .carousel-container {
@@ -37,6 +87,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  filter: brightness(80%);
 }
 
 .hero-text-section {
@@ -56,7 +107,6 @@ body {
 
 .hero-btn {
   color: #fefdfc;
-  /* background-color: #d62828; */
   background-color: #aa0000;
   border: none;
   width: 28rem;
@@ -124,4 +174,8 @@ body {
 
 .dots-dot--active {
   opacity: 1;
+}
+
+.product-img {
+  width: 100%;
 }
