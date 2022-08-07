@@ -241,7 +241,8 @@ h3 {
   gap: 2.4rem;
 }
 
-.product-img {
+.product-img,
+.barista-img {
   width: 0;
   flex: 1 1 0px;
   object-fit: cover;
@@ -250,4 +251,9 @@ h3 {
 
 .img-position {
   object-position: 30% 50%;
+}
+
+.barista-picks {
+  display: flex;
+  gap: 2.4rem;
 }
