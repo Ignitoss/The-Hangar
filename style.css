@@ -239,10 +239,10 @@ h3 {
 .menu-items {
   display: flex;
   gap: 2.4rem;
+  flex-wrap: wrap;
 }
 
-.product-img,
-.barista-img {
+.product-img {
   width: 0;
   flex: 1 1 0px;
   object-fit: cover;
@@ -253,7 +253,76 @@ h3 {
   object-position: 30% 50%;
 }
 
+.flex-break-row {
+  flex-basis: 100%;
+  height: 0;
+}
+
 .barista-picks {
   display: flex;
-  gap: 2.4rem;
+  gap: 3.2rem;
+}
+
+.barista-picks-div {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 7.2rem auto;
+  gap: 0.8rem;
+}
+
+.barista-img {
+  border-radius: 50%;
+  height: 6.4rem;
+  width: 6.4rem;
+  object-fit: cover;
+}
+
+.fem-bar-adj {
+  object-position: 80% 50%;
+}
+
+.barista-text {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.social-tag {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.social-icon {
+  padding: 0.8rem;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.footer-logo-container {
+  align-self: center;
+  padding-bottom: 1.8rem;
+}
+
+.footer-logo {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 0.2rem;
+  margin: 1.2rem;
+}
+
+.footer-logo-copyright {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.footer-nav-links {
+  display: block;
+}
+
+.nav-item-footer {
+  padding-bottom: 2.4rem;
 }
