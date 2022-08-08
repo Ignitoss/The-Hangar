@@ -286,6 +286,33 @@ h3 {
   font-weight: 400;
 }
 
+.rewards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.rewards-content {
+  align-self: center;
+  justify-self: center;
+}
+
+.header-content-rewards {
+  margin: 2.4rem 0;
+}
+
+.rewards-img {
+  width: 100%;
+  border-radius: 1.2rem;
+}
+
+.social {
+  display: grid;
+}
+
+.social-grid {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .social-tag {
   font-size: 2rem;
   font-weight: 600;
