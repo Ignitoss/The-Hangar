@@ -53,21 +53,13 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   background-color: #fdfcfb;
-  color: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
 }
 
 body {
   font-family: "Inter", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #312f2d;
+  color: #343a40;
 }
 
 .container {
@@ -88,20 +80,20 @@ header {
 
 h1 {
   text-align: center;
-  font-size: 2.4rem;
+  font-size: 3.6rem;
   font-weight: 700;
-  margin: 2.4rem auto 1.8rem auto;
+  margin: 4.8rem auto 2.4rem auto;
 }
 
 h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
   margin-bottom: 3rem;
 }
 
 h3 {
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-weight: 700;
   margin: 3.2rem;
 }
@@ -111,9 +103,9 @@ h3 {
   display: flex;
   padding: 0;
   justify-content: space-around;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   text-align: center;
-  margin-bottom: 2.4rem;
+  margin: 4.8rem 0;
 }
 
 .nav-item {
@@ -123,7 +115,7 @@ h3 {
 .nav-link:link,
 .nav-link:visited {
   text-decoration: none;
-  color: #312f2d;
+  color: #343a40;
 }
 
 .nav-link:hover,
@@ -159,9 +151,9 @@ h3 {
   top: 45rem;
   left: 12.8rem;
   color: #fefdfc;
-  font-size: 3.6rem;
-  font-weight: 800;
-  letter-spacing: 2.4px;
+  font-size: 4.4rem;
+  font-weight: 700;
+  letter-spacing: 1.6px;
 }
 
 .hero-text {
@@ -176,9 +168,21 @@ h3 {
   width: 28rem;
   padding: 1.6rem;
   border-radius: 1.2rem;
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-weight: 700;
-  letter-spacing: 1.8px;
+  letter-spacing: 1.6px;
+}
+
+.hero-btn:hover {
+  background-color: #950000;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.hero-btn-loc {
+  width: auto;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
 }
 
 .material-symbols-outlined {
@@ -241,13 +245,14 @@ h3 {
 }
 
 .section-content {
-  margin: 6.4rem 0;
+  margin: 16.4rem 0;
 }
 
 .menu-items {
   display: flex;
   gap: 2.4rem;
   flex-wrap: wrap;
+  max-width: 150rem;
 }
 
 .product-img {
@@ -278,6 +283,12 @@ h3 {
   display: grid;
   grid-template-columns: 7.2rem auto;
   gap: 0.8rem;
+  border-radius: 1.2rem;
+  padding: 1.2rem 0.4rem 1.2rem 0.8rem;
+  margin-top: 1.2rem;
+  align-items: center;
+  box-shadow: 0 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2),
+    0 0.6rem 1rem 0 rgba(0, 0, 0, 0.19);
 }
 
 .barista-img {
@@ -292,13 +303,15 @@ h3 {
 }
 
 .barista-text {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 400;
+  color: #495057;
 }
 
 .rewards {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 16.4rem 0;
 }
 
 .rewards-content {
@@ -358,15 +371,16 @@ h3 {
 }
 
 .social-tag {
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: 600;
   text-align: center;
+  margin: 6.4rem 0;
 }
 
 .social-icon:link,
 .social-icon:visited {
   text-decoration: none;
-  color: #312f2d;
+  color: #343a40;
   padding: 0.8rem;
 }
 
@@ -395,9 +409,16 @@ h3 {
   -webkit-text-fill-color: transparent;
 }
 
+.section-footer {
+  width: 100%;
+  background-color: #f1f3f5;
+}
+
 .footer {
   display: grid;
   grid-template-columns: auto auto auto;
+  gap: 2rem;
+  max-width: 120rem;
 }
 
 .footer-logo-container {
@@ -406,20 +427,26 @@ h3 {
 }
 
 .footer-logo {
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: 600;
   padding-bottom: 0.2rem;
   margin: 1.2rem;
 }
 
 .footer-logo-copyright {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 400;
   margin: 0;
 }
 
 .footer-nav-links {
   display: block;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.footer-nav-links-rt-algn {
+  justify-self: end;
 }
 
 .nav-item-footer {
