@@ -135,14 +135,16 @@ h3 {
   list-style: none;
   z-index: 1;
   top: 100%;
-  margin: 1.2rem;
-  padding: 1.2rem 2rem;
-  line-height: 1.4;
+  margin: 0 -1rem;
+  padding: 2.4rem 2.4rem 2rem;
+  line-height: 1.6;
   border-radius: 0.8rem;
 }
 
 .nav-link-loc:hover .location-links {
   display: flex;
+  position: absolute;
+  z-index: 1;
 }
 
 .carousel-container {
