@@ -1,3 +1,10 @@
+const copyrightYear = function () {
+  const now = new Date();
+  const year = now.getFullYear();
+  console.log(year);
+};
+copyrightYear();
+
 const carousel = function () {
   const slides = document.querySelectorAll(".carousel");
   const btnLeft = document.querySelector(".btn-left");

@@ -9,38 +9,52 @@ Default: 400
 Medium: 500
 Semi-bold: 600
 Bold: 700
-H1: 800
 
 - Line heights
 Default: 1
 Small: 1.05
 Medium: 1.2
-Paragraph default: 1.6
+links: 1.6
 Large: 1.8
 
 - Letter spacing
--0.5px
-0.75px
+1.6pxpx
 
 --- 02 COLORS
+- body: #fdfcfb
+- Text: #343a40
+- button/active-link: #aa0000
+- button active: #950000
+- button text: #fefdfc
+- link background: #f1f3f5
+- dots: #ffffff
+- paragraph text: #495057
+- slider arrow: rgba(255, 255, 255, 0.7)
+- slider arrow-active: rgba(255, 255, 255, 0.5);
 
-- Primary: 
-- Tints:
-
-
-- Shades: 
-
-
-- Accents:
-- Greys
+Social Icons
+- fb: #4267b2
+- twitter: #26a7de
+- insta: background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
 
 --- 05 SHADOWS
 
 
 --- 06 BORDER-RADIUS
 
-Default: 9px
-Medium: 11px
+Default: 1.2rem
+location-links: 0.8rem
+slider-left-arrow: 0 3px 3px 0
+slider-right-arrow: 3px 0 0 3px 
+dots: 50%
+barista-img: 50%ß
 
 --- 07 WHITESPACE
 
