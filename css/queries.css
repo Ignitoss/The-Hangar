@@ -1,8 +1,186 @@
 /* 1 rem = 1 em = 16px */
 
 /* ****************************************************************** */
+/* Below 2560px */
+/* ****************************************************************** */
+
+@media (max-width: 160em) {
+  .background-img {
+    margin-bottom: -51rem;
+  }
+}
+
+/* ****************************************************************** */
+/* Below 2192px */
+/* ****************************************************************** */
+
+@media (max-width: 137em) {
+  .hero-text-section {
+    top: 60rem;
+  }
+}
+
+/* ****************************************************************** */
+/* Below 1920px */
+/* ****************************************************************** */
+
+@media (max-width: 120em) {
+  .background-img {
+    margin-bottom: -38.5rem;
+  }
+}
+
+/* ****************************************************************** */
+/* Below 1744px */
+/* ****************************************************************** */
+
+@media (max-width: 109rem) {
+  .hero-text-section {
+    top: 50rem;
+  }
+
+  .background-img {
+    margin-bottom: -35.5rem;
+  }
+}
+
+/* ****************************************************************** */
+/* Below 1456px */
+/* ****************************************************************** */
+
+@media (max-width: 91em) {
+  .hero-text-section {
+    font-size: 3.6rem;
+  }
+
+  .hero-btn {
+    font-weight: 600;
+  }
+
+  .background-img {
+    margin-bottom: -29rem;
+  }
+}
+
+/* ****************************************************************** */
 /* Below 1344px */
 /* ****************************************************************** */
 
-@media (max-width: 84rem) {
+@media (max-width: 84em) {
+  .hero-text-section {
+    top: 40rem;
+    font-size: 3rem;
+  }
+
+  .hero-btn {
+    font-size: 2.4rem;
+  }
+
+  .btn-left,
+  .btn-right {
+    top: 35%;
+  }
+
+  .section-content {
+    margin: 4.8rem 0;
+  }
+
+  .background-img {
+    margin-bottom: -27rem;
+  }
+
+  .barista-text {
+    font-size: 1.4rem;
+  }
 }
+
+/* ****************************************************************** */
+/* Below 1200px */
+/* ****************************************************************** */
+
+@media (max-width: 75em) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2,
+  h3 {
+    font-size: 2.4rem;
+  }
+
+  .section-hero {
+    height: 95vh;
+  }
+
+  .nav-links {
+    font-size: 2rem;
+    margin: 3.2rem 0;
+  }
+
+  .hero-text-section {
+    font-size: 2.4rem;
+    top: 35rem;
+  }
+
+  .hero-btn {
+    font-size: 2rem;
+  }
+
+  .dots {
+    bottom: 30%;
+  }
+
+  .barista-text {
+    font-size: 1.2rem;
+  }
+
+  .social-tag {
+    font-size: 1.8rem;
+    margin: 3.2rem;
+  }
+
+  .footer-logo-copyright {
+    font-size: 1.4rem;
+  }
+
+  .footer-nav-links {
+    font-size: 1.8rem;
+  }
+}
+
+/* ****************************************************************** */
+/* Below 1040px */
+/* ****************************************************************** */
+
+@media (max-width: 65em) {
+  .section-hero {
+    height: 50vh;
+  }
+
+  .hero-text-section {
+    top: 30rem;
+  }
+
+  .dots {
+    /* bottom: 40%; */
+  }
+
+  .section-content {
+    margin: 0;
+  }
+}
+
+/* ****************************************************************** */
+/* Below 944px */
+/* ****************************************************************** */
+
+@media (max-width: 59em) {
+}
+
+/*
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/

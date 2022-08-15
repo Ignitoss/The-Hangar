@@ -161,16 +161,22 @@ h3 {
   z-index: 1;
 }
 
+.section-hero {
+  height: auto;
+}
+
 .carousel-container {
-  height: 100vh;
+  height: 100%;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 
 .carousel {
+  position: relative;
   display: block;
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  /* height: auto; */
   transition: ease-in-out 1s;
 }
 
@@ -186,7 +192,7 @@ h3 {
 
 .hero-text-section {
   position: absolute;
-  top: 45rem;
+  top: 75rem;
   left: 12.8rem;
   color: #fefdfc;
   font-size: 4.4rem;
@@ -195,8 +201,7 @@ h3 {
 }
 
 .hero-text {
-  padding-right: 45rem;
-  text-shadow: 0 0 0.3rem black;
+  text-shadow: 0 0 0.3rem #000000;
 }
 
 .hero-btn {
@@ -282,6 +287,13 @@ h3 {
   opacity: 1;
 }
 
+.background-img {
+  z-index: -5;
+  width: 100%;
+  margin-bottom: -65.5rem;
+  overflow: hidden;
+}
+
 .section-content {
   margin: 16.4rem 0;
 }
@@ -319,7 +331,7 @@ h3 {
 .barista-picks-div {
   flex: 1;
   display: grid;
-  grid-template-columns: 7.2rem auto;
+  grid-template-columns: repeat(2, auto);
   gap: 0.8rem;
   border-radius: 1.2rem;
   padding: 1.2rem 0.4rem 1.2rem 0.8rem;
@@ -348,7 +360,7 @@ h3 {
 
 .rewards {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   margin: 16.4rem 0;
 }
 
@@ -373,7 +385,7 @@ h3 {
 .social-grid {
   display: grid;
   grid-row: 1;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.8rem;
 }
 
@@ -454,7 +466,7 @@ h3 {
 
 .footer {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(3, auto);
   gap: 2rem;
   max-width: 120rem;
 }
