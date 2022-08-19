@@ -299,15 +299,15 @@ h3 {
 }
 
 .menu-items {
-  display: flex;
+  display: grid;
   gap: 2.4rem;
-  flex-wrap: wrap;
   max-width: 150rem;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
 }
 
 .product-img {
-  width: 0;
-  flex: 1 1 0px;
+  width: 100%;
   object-fit: cover;
   border-radius: 1.2rem;
   box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2),
@@ -315,17 +315,13 @@ h3 {
 }
 
 .img-position {
+  height: 100%;
   object-position: 30% 50%;
 }
 
 .flex-break-row {
   flex-basis: 100%;
   height: 0;
-}
-
-.barista-picks {
-  display: flex;
-  gap: 3.2rem;
 }
 
 .barista-picks-div {
