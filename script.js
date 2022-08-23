@@ -1,3 +1,4 @@
+////////////////////////////////////////////////////////////////////////////////////////
 // Update copyright year
 const copyrightYear = function () {
   const year = document.querySelector(".copyright-year");
@@ -6,6 +7,17 @@ const copyrightYear = function () {
 };
 copyrightYear();
 
+////////////////////////////////////////////////////////////////////////////////////////
+// mobile nav
+const btnNavEl = document.querySelector(".btn-mobile-nav");
+const headerEl = document.querySelector(".header");
+
+btnNavEl.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
+});
+("nav-open");
+
+////////////////////////////////////////////////////////////////////////////////////////
 // carousel slider commands
 const carousel = function () {
   const slides = document.querySelectorAll(".carousel");

@@ -140,7 +140,6 @@ h3 {
 
 .location-links {
   display: none;
-  /* display: flex; */
   position: absolute;
   flex-direction: column;
   background-color: #f1f3f5;
@@ -161,6 +160,19 @@ h3 {
   z-index: 1;
 }
 
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 4.4rem;
+  color: #343a40;
+  display: none;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 .section-hero {
   height: auto;
 }
@@ -176,7 +188,6 @@ h3 {
   position: relative;
   display: block;
   width: 100%;
-  /* height: auto; */
   transition: ease-in-out 1s;
 }
 
