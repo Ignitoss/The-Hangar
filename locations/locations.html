@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/9409420374.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/queries.css" />
+    <link rel="stylesheet" href="../css/locations.css" />
+
+    <title>Caf&eacute;s - The Hangar</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <h1 class="logo">The HANGAR</h1>
+        <h2 class="logo">Roasterie and Coffee Bar</h2>
+        <ul class="nav-links nav-links-mobile">
+          <li class="nav-item"><a class="nav-link" href="">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="">About</a></li>
+          <li class="nav-item nav-link-loc">
+            <a class="nav-link" href="">Locations</a>
+            <ul class="location-links">
+              <li class="nav-link">
+                <a class="nav-link" href="">Kansas City</a>
+              </li>
+              <li class="nav-link">
+                <a class="nav-link" href="">St. Louis</a>
+              </li>
+              <li class="nav-link"><a class="nav-link" href="">Austin</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="">Account</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Order Online</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <i class="fa-solid fa-bars icon-mobile-nav" name="menu-outline"></i>
+        <i class="fa-solid fa-xmark icon-mobile-nav" name="close-outline"></i>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-locations container">
+        <div class="location-flex">
+          <div class="kansas-city-locations">
+            <img
+              class="location-city-img kc-location"
+              src="../imgs/location/kc.jpg"
+              alt="Downtown Kansas City, MO trolley"
+            />
+            <div class="location-img-div location-img-div-kc">
+              <p class="location-img-text">Kansas City Locations</p>
+              <button class="location-img-btn">Learn More</button>
+            </div>
+          </div>
+          <div class="stl-locations">
+            <img
+              class="location-city-img stl-location"
+              src="../imgs/location/stl.jpg"
+              alt="St. Louis Cardinals baseball stadium with St. Louis Arch in background"
+            />
+            <div class="location-img-div location-img-div-stl">
+              <p class="location-img-text">St. Louis Location</p>
+              <button class="location-img-btn">Learn More</button>
+            </div>
+          </div>
+          <div class="Austin-locations">
+            <img
+              class="location-city-img austin-location"
+              src="../imgs/location/austin.jpg"
+              alt="Texas building sign"
+            />
+            <div class="location-img-div location-img-div-austin">
+              <p class="location-img-text">Coming Soon to Austin!</p>
+              <button class="location-img-btn">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="section-footer">
+        <div class="container footer">
+          <div class="footer-logo-container">
+            <h1 class="footer-logo logo">The HANGAR</h1>
+            <h2 class="footer-logo logo">Roasterie and Coffee Bar</h2>
+            <h2 class="footer-logo-copyright logo">
+              &copy; <span class="copyright-year">1999</span> The Hangar Coffee
+            </h2>
+          </div>
+
+          <div class="footer-nav">
+            <ul class="footer-nav-links nav-links">
+              <li class="nav-item-footer">
+                <a class="nav-link" href="">About</a>
+              </li>
+              <li class="nav-item-footer">
+                <a class="nav-link" href="">Account</a>
+              </li>
+              <li class="nav-item-footer">
+                <a class="nav-link" href="">Rewards</a>
+              </li>
+              <li class="nav-item-footer">
+                <a class="nav-link" href="">Menu</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-nav">
+            <ul class="footer-nav-links nav-links">
+              <li class="nav-item-footer">Locations</li>
+              <li class="nav-item-footer">
+                <a class="nav-link" href="">Kansas City</a>
+              </li>
+              <li class="nav-item-footer">
+                <a class="nav-link" href="">St. Louis</a>
+              </li>
+              <li class="nav-item-footer">
+                <a class="nav-link" href="">Austin</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
