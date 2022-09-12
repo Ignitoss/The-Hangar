@@ -99,6 +99,17 @@ h1 {
   margin: 4.8rem auto 2.4rem auto;
 }
 
+.header-link:link,
+.header-link:visited {
+  text-decoration: none;
+  color: #343a40;
+}
+
+.header-link:hover,
+.header-link:active {
+  text-decoration: none;
+}
+
 h2 {
   text-align: center;
   font-size: 3rem;

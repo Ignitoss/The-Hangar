@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,13 +24,14 @@
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/queries.css" />
     <link rel="stylesheet" href="../css/locations.css" />
+    <link rel="stylesheet" href="../css/location-template.css" />
 
-    <title>Caf&eacute;s - The Hangar</title>
+    <title>KC Caf&eacute;s - The Hangar</title>
   </head>
   <body>
     <header>
       <nav class="nav">
-        <h1 class="logo"><a class="header-link" href="#">The HANGAR</a></h1>
+        <h1 class="logo">The HANGAR</h1>
         <h2 class="logo">Roasterie and Coffee Bar</h2>
         <ul class="nav-links nav-links-mobile">
           <li class="nav-item"><a class="nav-link" href="">Menu</a></li>
@@ -60,41 +60,36 @@
     </header>
 
     <main>
-      <section class="section-locations container">
-        <div class="location-flex">
-          <div class="kansas-city-locations">
+      <section class="container">
+        <div class="locations-grid">
+          <div class="kc-location-1">
             <img
-              class="location-city-img kc-location"
-              src="../imgs/location/kc.jpg"
-              alt="Downtown Kansas City, MO trolley"
+              class="location-img kc-img-adjust"
+              src="../imgs/location/locationC.jpg"
+              alt="Kansas City coffee shop interior"
             />
-            <div class="location-img-div location-img-div-kc">
-              <p class="location-img-text">Kansas City Locations</p>
-              <button class="location-img-btn">Learn More</button>
-            </div>
+            <p class="location-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
+              adipisci facere praesentium eius itaque enim. Error facilis porro
+              ullam expedita quae veritatis non doloribus eaque, beatae, quam
+              earum similique perferendis.
+            </p>
           </div>
-          <div class="stl-locations">
+          <div class="kc-location-1">
+
             <img
-              class="location-city-img stl-location"
-              src="../imgs/location/stl.jpg"
-              alt="St. Louis Cardinals baseball stadium with St. Louis Arch in background"
+            class="location-img"
+            src="../imgs/location/locationB.jpg"
+            alt="Kansas City coffee shop interior"
             />
-            <div class="location-img-div location-img-div-stl">
-              <p class="location-img-text">St. Louis Location</p>
-              <button class="location-img-btn">Learn More</button>
-            </div>
+            <p class="location-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
+              adipisci facere praesentium eius itaque enim. Error facilis porro
+              ullam expedita quae veritatis non doloribus eaque, beatae, quam
+              earum similique perferendis.
+            </p>
           </div>
-          <div class="Austin-locations">
-            <img
-              class="location-city-img austin-location"
-              src="../imgs/location/austin.jpg"
-              alt="Texas building sign"
-            />
-            <div class="location-img-div location-img-div-austin">
-              <p class="location-img-text">Coming Soon to Austin!</p>
-              <button class="location-img-btn">Learn More</button>
-            </div>
-          </div>
+        </div>
         </div>
       </section>
 
