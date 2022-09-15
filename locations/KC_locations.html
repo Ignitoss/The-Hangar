@@ -25,8 +25,21 @@
     <link rel="stylesheet" href="../css/queries.css" />
     <link rel="stylesheet" href="../css/locations.css" />
     <link rel="stylesheet" href="../css/location-template.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+      integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+      crossorigin=""
+    />
 
     <title>KC Caf&eacute;s - The Hangar</title>
+
+    <script defer src="../map.js"></script>
+    <script
+      src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+      integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+      crossorigin=""
+    ></script>
   </head>
   <body>
     <header>
@@ -68,29 +81,67 @@
               src="../imgs/location/locationC.jpg"
               alt="Kansas City coffee shop interior"
             />
-            <p class="location-text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              adipisci facere praesentium eius itaque enim. Error facilis porro
-              ullam expedita quae veritatis non doloribus eaque, beatae, quam
-              earum similique perferendis.
-            </p>
+            <div class="location-info">
+              <p class="location-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Deleniti adipisci facere praesentium eius itaque enim. Error
+                facilis porro ullam expedita quae veritatis non doloribus eaque,
+                beatae, quam earum similique perferendis.
+              </p>
+              <div class="location-text-sections">
+                <h3 class="hours-header">
+                  <i class="fa-regular fa-location-dot"></i>&nbsp; Location
+                </h3>
+                <p class="location-hours-text">1624 Grand Boulevard</p>
+                <p class="location-hours-text">Kansas City, MO 64108</p>
+              </div>
+              <div class="location-text-sections">
+                <h3 class="hours-header">Hours</h3>
+                <p class="location-hours-text">
+                  Monday-Friday &emsp; 6:30AM-6PM
+                </p>
+                <p class="location-hours-text">
+                  Saturday, Sunday &emsp; 7AM-6PM
+                </p>
+              </div>
+            </div>
           </div>
           <div class="kc-location-1">
-
             <img
-            class="location-img"
-            src="../imgs/location/locationB.jpg"
-            alt="Kansas City coffee shop interior"
+              class="location-img"
+              src="../imgs/location/locationB.jpg"
+              alt="Kansas City coffee shop interior"
             />
-            <p class="location-text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              adipisci facere praesentium eius itaque enim. Error facilis porro
-              ullam expedita quae veritatis non doloribus eaque, beatae, quam
-              earum similique perferendis.
-            </p>
+            <div class="location-info">
+              <p class="location-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Deleniti adipisci facere praesentium eius itaque enim. Error
+                facilis porro ullam expedita quae veritatis non doloribus eaque,
+                beatae, quam earum similique perferendis.
+              </p>
+              <div class="location-text-sections">
+                <h3 class="hours-header">
+                  <i class="fa-regular fa-location-dot"></i>&nbsp; Location
+                </h3>
+                <p class="location-hours-text">7420 Johnson Drive</p>
+                <p class="location-hours-text">Overland Park, KS 66202</p>
+              </div>
+              <div class="location-text-sections">
+                <h3 class="hours-header">Hours</h3>
+                <p class="location-hours-text">
+                  Monday-Friday &emsp; 6:30AM-6PM
+                </p>
+                <p class="location-hours-text">
+                  Saturday, Sunday &emsp; 7AM-6PM
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        </div>
+      </section>
+
+      <section class="section-map">
+        <div id="map"></div>
       </section>
 
       <footer class="section-footer">
