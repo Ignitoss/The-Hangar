@@ -82,15 +82,14 @@
               alt="Kansas City coffee shop interior"
             />
             <div class="location-info">
-              <p class="location-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Deleniti adipisci facere praesentium eius itaque enim. Error
-                facilis porro ullam expedita quae veritatis non doloribus eaque,
-                beatae, quam earum similique perferendis.
-              </p>
+              <!-- <p class="location-text">
+                Our home location located conveniently in downtown Kansas City.
+                Get cozy sipping coffee next to our rooftop fire pit.
+              </p> -->
               <div class="location-text-sections">
                 <h3 class="hours-header">
-                  <i class="fa-regular fa-location-dot"></i>&nbsp; Location
+                  <i class="fa-regular fa-location-dot"></i>&nbsp; The Original
+                  Hangar
                 </h3>
                 <p class="location-hours-text">1624 Grand Boulevard</p>
                 <p class="location-hours-text">Kansas City, MO 64108</p>
@@ -113,15 +112,16 @@
               alt="Kansas City coffee shop interior"
             />
             <div class="location-info">
-              <p class="location-text">
+              <!-- <p class="location-text">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Deleniti adipisci facere praesentium eius itaque enim. Error
                 facilis porro ullam expedita quae veritatis non doloribus eaque,
                 beatae, quam earum similique perferendis.
-              </p>
+              </p> -->
               <div class="location-text-sections">
                 <h3 class="hours-header">
-                  <i class="fa-regular fa-location-dot"></i>&nbsp; Location
+                  <i class="fa-regular fa-location-dot"></i>&nbsp; The
+                  Greenhouse
                 </h3>
                 <p class="location-hours-text">7420 Johnson Drive</p>
                 <p class="location-hours-text">Overland Park, KS 66202</p>
@@ -136,6 +136,138 @@
                 </p>
               </div>
             </div>
+          </div>
+
+          <div class="event-hosting-section">
+            <h3 class="event-hosting-header">Host your event with us!</h3>
+            <p class="event-hosting-text">
+              Click here to reserve your space at one of our unique locations!
+            </p>
+            <button type="button" class="hero-btn event-host-btn">
+              Reserve Now
+            </button>
+          </div>
+          <img
+            class="location-img event-img"
+            src="../imgs/location/event_space.jpg"
+            alt="Women business meeting"
+          />
+        </div>
+
+        <div class="form-popout">
+          <div class="form-box container">
+            <h2 class="heading-form">Reserve your space</h2>
+
+            <form class="form-group" name="reservation" netlify>
+              <div>
+                <label class="form-label" for="full-name">Full Name</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  class="form-control"
+                  placeholder="John Smith"
+                  name="full-name"
+                  required
+                  autocomplete="name"
+                />
+              </div>
+
+              <div>
+                <label class="form-label" for="business-name"
+                  >Business Name</label
+                >
+                <input
+                  id="business-name"
+                  type="text"
+                  class="form-control"
+                  placeholder="Business Name"
+                  name="business-name"
+                />
+              </div>
+
+              <div>
+                <label class="form-label" for="phone-number"
+                  >Phone Number</label
+                >
+                <input
+                  id="phone-number"
+                  type="number"
+                  class="form-control"
+                  placeholder="000-999-1234"
+                  name="phone-number"
+                  required
+                />
+              </div>
+
+              <div>
+                <label class="form-label" for="email">Email</label>
+                <input
+                  id="email"
+                  type="email"
+                  class="form-control"
+                  placeholder="YourEmail@email.com"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div>
+                <label class="form-label" for="location"
+                  >Local Caf&eacute;</label
+                >
+                <select
+                  id="location"
+                  name="location"
+                  class="form-control"
+                  required
+                >
+                  <option value="">Choose your location:</option>
+                  <option value="dtn-kc">Downtown Kansas City</option>
+                  <option value="ovlnd-park-ks">Overland Park Kansas</option>
+                  <option value="stl">St. Louis</option>
+                  <option value="austin">Austin</option>
+                </select>
+              </div>
+
+              <div class="form-address-group">
+                <label class="form-label">Address</label>
+                <input
+                  type="street"
+                  class="form-control"
+                  id="input-street"
+                  placeholder="Street"
+                  required
+                />
+
+                <input
+                  type="city"
+                  class="form-control"
+                  id="input-city"
+                  placeholder="City"
+                  required
+                />
+
+                <input
+                  type="state"
+                  class="form-control"
+                  id="input-state"
+                  placeholder="State"
+                  required
+                />
+
+                <input
+                  type="zip"
+                  class="form-control"
+                  id="input-zip"
+                  placeholder="Zip"
+                  required
+                />
+              </div>
+
+              <button type="button" class="hero-btn form-submit-btn">
+                Submit
+              </button>
+            </form>
           </div>
         </div>
       </section>

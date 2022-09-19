@@ -2,7 +2,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 4.8rem;
-  margin: 3.6rem 0;
+  margin: 3.6rem 0 16.4rem 0;
+  row-gap: 12.8rem;
 }
 
 .kc-location-1 {
@@ -56,10 +57,85 @@
   text-align: center;
 }
 
+.form-popout {
+  display: none;
+}
+
+.event-hosting-section {
+  align-self: center;
+}
+
+.event-hosting-header {
+  margin: 3.2rem 0;
+}
+
+.event-hosting-text {
+  font-size: 2rem;
+}
+
+.event-host-btn,
+.form-submit-btn {
+  margin: 1.2rem 2rem;
+  font-size: 2rem;
+  padding: 1.2rem;
+  width: 19rem;
+}
+
+.event-img {
+  border-radius: 1.2rem;
+}
+
+.heading-form {
+  margin: 4.8rem;
+}
+
+.form-label,
+.form-control {
+  margin: 0.8rem;
+  font-size: 1.8rem;
+}
+
+.form-group {
+  margin: 3rem auto;
+  width: 64rem;
+}
+
+#full-name,
+#email,
+#location {
+  width: 80%;
+}
+
+#business-name,
+#phone-number {
+  width: 70%;
+}
+
+#input-street {
+  width: 82%;
+}
+
+#input-city {
+  width: 48%;
+}
+
+#input-state {
+  width: 14%;
+}
+
+#input-zip {
+  width: 25%;
+}
+
+.form-submit-btn {
+  margin: 4.8rem 0;
+}
+
 .section-map {
   margin: 3.6rem;
 }
 
 #map {
   height: 36.4rem;
+  border-radius: 1.2rem;
 }

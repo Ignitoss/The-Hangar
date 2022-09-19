@@ -1,7 +1,13 @@
 // Leaflet Maps
-var map = L.map("map").setView([51.505, -0.09], 13);
+var map = L.map("map").setView([39.0681573, -94.61], 12.1);
 
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
   attribution: "© OpenStreetMap",
 }).addTo(map);
+
+var markerA = L.marker([39.093748285483606, -94.58140923574857]).addTo(map);
+var markerB = L.marker([39.02266205986825, -94.67200014411964]).addTo(map);
+
+markerB.bindPopup("<b>Overland Park</b><br>7420 Johnson Drive</br>");
+markerA.bindPopup("<b>Downtown Kansas City</b><br>1624 Grand Boulevard</br>");
