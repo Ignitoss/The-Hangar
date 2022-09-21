@@ -34,6 +34,7 @@
 
     <title>KC Caf&eacute;s - The Hangar</title>
 
+    <script defer src="../locations.js"></script>
     <script defer src="../map.js"></script>
     <script
       src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
@@ -155,8 +156,13 @@
         </div>
 
         <div class="form-popout">
-          <div class="form-box container">
-            <h2 class="heading-form">Reserve your space</h2>
+          <div class="form-box">
+            <header class="header-form">
+              <h2 class="heading-form">Reserve your space</h2>
+              <button class="btn-form-close">
+                <i class="fa-solid fa-xmark close-form" name="close-form"></i>
+              </button>
+            </header>
 
             <form class="form-group" name="reservation" netlify>
               <div>

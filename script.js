@@ -121,16 +121,3 @@ const carousel = function () {
 carousel();
 
 ////////////////////////////////////////////////////////////////////////////////////////
-// Reservations popup
-
-const btnReserveNow = document.querySelector(".event-host-btn");
-const formPopoutEl = document.querySelector(".form-popout");
-// const mobileNavEl = document.querySelectorAll(".icon-mobile-nav");
-
-// btnReserveNow.addEventListener("click", function () {
-//   formPopoutEl.classList.toggle("nav-open");
-//   mobileNavEl.forEach((el) => {
-//     el.classList.toggle("nav-open");
-//   });
-// });
-// ("nav-open");
