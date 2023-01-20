@@ -1,6 +1,6 @@
 .section-locations {
   max-width: 160rem;
-  margin: 4.8rem auto 6.4rem auto;
+  margin: 4.8rem auto 0 auto;
 }
 
 .location-flex {
@@ -48,6 +48,10 @@
   background-color: #950000;
   transition: 0.4s;
   cursor: pointer;
+}
+
+.social-main-location {
+  margin: 0 auto 12.4rem auto;
 }
 
 /* ****************************************************************** */
