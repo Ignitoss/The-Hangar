@@ -6,6 +6,10 @@
   row-gap: 12.8rem;
 }
 
+.locations-container {
+  margin: 3.6rem 16.4rem 16.4rem 16.4rem;
+}
+
 .kc-location-1 {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;

@@ -1,0 +1,27 @@
+.menu-content {
+  max-width: 130rem;
+  font-size: 2rem;
+  margin: 6.4rem auto;
+}
+
+.menu-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 1.2rem;
+  letter-spacing: -0.5px;
+}
+
+th {
+  font-size: 2.4rem;
+  letter-spacing: normal;
+}
+
+.table-logo {
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.menu-logo-img {
+  height: 150px;
+  width: auto;
+}
