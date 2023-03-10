@@ -123,6 +123,10 @@ h3 {
   margin: 3.2rem;
 }
 
+.general-text {
+  font-size: 2rem;
+}
+
 .nav-links {
   list-style: none;
   display: flex;
