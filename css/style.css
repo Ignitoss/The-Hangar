@@ -127,6 +127,22 @@ h3 {
   font-size: 2rem;
 }
 
+.grid-2-column {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 16.4rem 0;
+}
+
+.grid-content {
+  align-self: center;
+  justify-self: center;
+}
+
+.grid-img {
+  width: 100%;
+  border-radius: 1.2rem;
+}
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -380,24 +396,8 @@ h3 {
   color: #495057;
 }
 
-.rewards {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin: 16.4rem 0;
-}
-
-.rewards-content {
-  align-self: center;
-  justify-self: center;
-}
-
 .header-content-rewards {
   margin: 2.4rem 0;
-}
-
-.rewards-img {
-  width: 100%;
-  border-radius: 1.2rem;
 }
 
 .social {
